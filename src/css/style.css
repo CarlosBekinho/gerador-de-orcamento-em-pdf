@@ -1,0 +1,104 @@
+body {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  background-color: #51c2bc;
+
+
+}
+
+nav {
+  background-color: white;
+  border-bottom: solid 1px #000;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navbar-brand img {
+  width: 200px;
+  margin: 20px;
+
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+
+  margin: 40px 0 20px;
+  padding: 20px;
+  border-radius: 1pc;
+  border: solid 1px #000;
+  overflow-x: auto;
+}
+
+.container h1,
+h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 400;
+  /* font-style: italic; */
+}
+
+.container-fluid {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+.form-data-client {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 10px 0 50px 0;
+}
+
+.form-data-client input {
+  width: 350px;
+
+  border-color: #000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+table,
+th,
+td {
+
+  border: 1px solid #000;
+  padding: 8px;
+  white-space: nowrap;
+}
+
+tbody,
+thead {
+  width: 10px;
+}
+
+.inputTable {
+  width: 100%;
+}
+
+
+
+.btn {
+  border: solid 1px #000 !important;
+}
+
+#valorTotal {
+  font-weight: bold;
+}
