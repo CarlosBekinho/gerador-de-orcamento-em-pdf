@@ -50,7 +50,7 @@ function gerarPDF() {
 
   
     const logo = new Image();
-    logo.src = "/src/images/logo.png"; 
+    logo.src = "./src/images/logo.png"; 
 
     logo.onload = function() {
         const pdfWidth = doc.internal.pageSize.getWidth();
